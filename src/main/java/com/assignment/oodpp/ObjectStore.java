@@ -1,7 +1,10 @@
 package com.assignment.oodpp;
 
-public interface ObjectStore {
-	int store(Object object);
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
-	Object retrieve(int index);
+public interface ObjectStore {
+	int store(Object object) throws FileNotFoundException, IOException, ClassNotFoundException;
+
+	Object retrieve(int index) throws FileNotFoundException, IOException, ClassNotFoundException;
 }

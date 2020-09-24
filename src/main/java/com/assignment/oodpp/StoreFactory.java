@@ -2,7 +2,7 @@ package com.assignment.oodpp;
 
 public class StoreFactory {
 
-	public ObjectStore create(String type) {
+	public static ObjectStore create(String type) {
 		if (type.equalsIgnoreCase("InMemory")) {
 			return new InMemoryObjectStore();
 		} else if (type.equalsIgnoreCase("File")) {
