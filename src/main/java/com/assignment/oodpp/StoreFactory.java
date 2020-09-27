@@ -2,7 +2,7 @@ package com.assignment.oodpp;
 
 /**
  * This is the factory class which return the relevant
- * <code> ObjectStore </code> when the <code> StoreType </code> is given
+ * {@link ObjectStore } when the {@link StoreType } is given
  * 
  * @author Pabasara
  * @author Mahindapala

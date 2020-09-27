@@ -3,7 +3,9 @@ package com.assignment.oodpp;
 import java.io.Serializable;
 
 /**
- * This class is used to test the library by storing objects. The class is made Serializable for storing in the file.
+ * This class is used to test the library by storing objects. The class is made
+ * {@link Serializable } for storing in the file.
+ * 
  * @author Pabasara
  * @author Mahindapala
  * @see Serializable

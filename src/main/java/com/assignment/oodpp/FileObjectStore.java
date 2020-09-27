@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * This is the static object store which stores objects in a file. Implements
- * the <code> ObjectStore </code> interface.
+ * the {@link ObjectStore} interface.
  * 
  * @author Pabasara
  * @author Mahindapala

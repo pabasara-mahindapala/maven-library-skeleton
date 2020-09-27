@@ -2,8 +2,8 @@ package com.assignment.oodpp;
 
 /**
  * 
- * This enumeration defines the two different object store types <b> In Memory
- * Object Store </b> and <b> File Object Store </b>
+ * This enumeration defines the two different object store types
+ * {@link InMemoryObjectStore } and {@link FileObjectStore }
  * 
  * @author Pabasara
  * @author Mahindapala

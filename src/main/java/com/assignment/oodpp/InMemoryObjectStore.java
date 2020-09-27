@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * This is the dynamic object store which stores objects in memory. Implements
- * the <code> ObjectStore </code> interface.
+ * the {@link ObjectStore } interface.
  * 
  * @author Pabasara
  * @author Mahindapala

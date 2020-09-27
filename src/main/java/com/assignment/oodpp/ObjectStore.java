@@ -5,7 +5,8 @@ import java.io.IOException;
 
 /**
  * Object store interface which describes the functionalities of the object
- * store.
+ * store. This interface is not thread safe. Any classes implementing this
+ * interface must be made thread safe.
  * 
  * @author Pabasara
  * @author Mahindapala
